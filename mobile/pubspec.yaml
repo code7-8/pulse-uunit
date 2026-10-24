@@ -1,0 +1,54 @@
+name: pulse
+description: Студенческая лента УУНиТ
+publish_to: none
+version: 1.1.0+4
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.6.0
+  crypto: ^3.0.7
+  shared_preferences: ^2.5.6
+  flutter_secure_storage: ^11.2.0
+  image_picker: ^1.2.4
+  url_launcher: ^6.3.3
+  cryptography: 2.9.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/demo/
+    - assets/fonts/GolosText-OFL.txt
+    - assets/fonts/OFL.txt
+  fonts:
+    - family: Golos
+      fonts:
+        - asset: assets/fonts/GolosText.ttf
+          weight: 400
+        - asset: assets/fonts/GolosText.ttf
+          weight: 500
+        - asset: assets/fonts/GolosText.ttf
+          weight: 600
+        - asset: assets/fonts/GolosText.ttf
+          weight: 700
+        - asset: assets/fonts/GolosText.ttf
+          weight: 800
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope.ttf
+          weight: 800
+

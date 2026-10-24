@@ -1,0 +1,1559 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "student@pulse.local",
+      "name": "Александр Соколов",
+      "handle": "alex_sokolov",
+      "faculty": "Институт информатики, математики и робототехники",
+      "course": 2,
+      "bio": "Учусь писать код. Ищу команду на хакатоны и людей для вечерних пробежек.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#C0EA89",
+      "role": "student",
+      "interests": [
+        "science",
+        "career",
+        "sport"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    },
+    {
+      "id": 2,
+      "email": "moderator@pulse.local",
+      "name": "Мария Волкова",
+      "handle": "maria_volkova",
+      "faculty": "Студенческая редакция",
+      "course": 3,
+      "bio": "Помогаю авторам выпускать понятные и полезные новости кампуса.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#C7BEF8",
+      "role": "moderator",
+      "interests": [
+        "campus",
+        "community"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    },
+    {
+      "id": 3,
+      "email": "alina@pulse.local",
+      "name": "Алина Каримова",
+      "handle": "alina_karimova",
+      "faculty": "Институт гуманитарных и социальных наук",
+      "course": 3,
+      "bio": "Студенческие проекты, фотография и городские прогулки.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#F2BDD2",
+      "role": "student",
+      "interests": [
+        "culture",
+        "community",
+        "campus"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    },
+    {
+      "id": 4,
+      "email": "timur@pulse.local",
+      "name": "Тимур Хасанов",
+      "handle": "timur_khasanov",
+      "faculty": "Институт информатики, математики и робототехники",
+      "course": 4,
+      "bio": "Разрабатываю приложения и провожу встречи для тех, кто только начинает.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#B7D4FF",
+      "role": "student",
+      "interests": [
+        "science",
+        "career"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    },
+    {
+      "id": 5,
+      "email": "daria@pulse.local",
+      "name": "Дарья Лебедева",
+      "handle": "daria_lebedeva",
+      "faculty": "Институт природы и человека",
+      "course": 2,
+      "bio": "Волонтёрство и маленькие изменения вокруг нас.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#A9DED0",
+      "role": "student",
+      "interests": [
+        "science",
+        "community"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    },
+    {
+      "id": 6,
+      "email": "artem@pulse.local",
+      "name": "Артём Исламов",
+      "handle": "artem_islamov",
+      "faculty": "Институт электротехнического инжиниринга",
+      "course": 3,
+      "bio": "Баскетбол, бег и инженерные проекты.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#F7D599",
+      "role": "student",
+      "interests": [
+        "sport",
+        "campus"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    },
+    {
+      "id": 7,
+      "email": "sofia@pulse.local",
+      "name": "Софья Морозова",
+      "handle": "sofia_morozova",
+      "faculty": "Институт экономики, управления и бизнеса",
+      "course": 2,
+      "bio": "Организую встречи, где можно познакомиться и попробовать новое.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#D6C6F8",
+      "role": "student",
+      "interests": [
+        "career",
+        "culture"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    },
+    {
+      "id": 8,
+      "email": "ruslan@pulse.local",
+      "name": "Руслан Ахметов",
+      "handle": "ruslan_akhmetov",
+      "faculty": "Институт информатики, математики и робототехники",
+      "course": 1,
+      "bio": "Первый курс. Собираю полезные места и знакомства в университете.\n\nДемонстрационный профиль для показа приложения.",
+      "avatar_url": null,
+      "avatar_color": "#C3E3A4",
+      "role": "student",
+      "interests": [
+        "campus",
+        "community"
+      ],
+      "created_at": "2026-10-10T02:54:20.543929Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "campus",
+      "name": "Кампус",
+      "color": "#B8EB7C"
+    },
+    {
+      "id": "science",
+      "name": "Наука",
+      "color": "#B7B9FF"
+    },
+    {
+      "id": "career",
+      "name": "Карьера",
+      "color": "#FFC28F"
+    },
+    {
+      "id": "sport",
+      "name": "Спорт",
+      "color": "#91C9FF"
+    },
+    {
+      "id": "culture",
+      "name": "Культура",
+      "color": "#F7A3CD"
+    },
+    {
+      "id": "community",
+      "name": "Сообщество",
+      "color": "#B4D8CD"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author_id": 4,
+      "type": "event",
+      "title": "Вечер кода: от идеи до первого приложения",
+      "body": "Собираемся небольшой группой, чтобы пройти путь от простой идеи до работающего экрана приложения. Начнём с короткого знакомства, обсудим инструменты и разделимся на пары.\n\nМожно прийти без опыта разработки. Возьмите ноутбук и зарядку. Участники с опытом смогут помочь новичкам и найти будущих напарников. В конце покажем друг другу, что получилось, и разберём вопросы.",
+      "category": "career",
+      "cover_url": "assets/demo/coding.jpg",
+      "image_urls": [
+        "assets/demo/coding.jpg",
+        "assets/demo/campus.jpg",
+        "assets/demo/community.jpg"
+      ],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-24T01:54:20.543929Z",
+      "updated_at": "2026-10-24T01:54:20.543929Z",
+      "published_at": "2026-10-24T01:54:20.543929Z",
+      "event_start": "2026-10-24T13:00:00.000000Z",
+      "event_end": "2026-10-24T15:00:00.000000Z",
+      "location": "Коворкинг · корпус на ул. Заки Валиди",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 2,
+      "author_id": 3,
+      "type": "news",
+      "title": "Кампус в объективе: подборка студенческих фотографий",
+      "body": "Осенний свет, знакомые лестницы и короткая пауза между парами. Собрали фотографии повседневной жизни кампуса, которые прислали студенты.\n\nХотим продолжить эту серию. Если у вас есть кадр, который передаёт ваше настроение в университете, подготовьте публикацию с фотографией и небольшой историей. Обязательно укажите автора и место съёмки.",
+      "category": "campus",
+      "cover_url": "assets/demo/campus.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T22:54:20.543929Z",
+      "updated_at": "2026-10-23T22:54:20.543929Z",
+      "published_at": "2026-10-23T22:54:20.543929Z",
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 3,
+      "author_id": 6,
+      "type": "event",
+      "title": "Открытая тренировка по баскетболу",
+      "body": "Приглашаем на открытую тренировку: разомнёмся, потренируем броски и сыграем несколько коротких матчей. Можно прийти одному или с друзьями.\n\nОпыт не важен — разделим команды так, чтобы всем было комфортно. Нужны сменная спортивная обувь, форма и вода. Отметьте участие в приложении: так мы поймём, сколько команд собрать.",
+      "category": "sport",
+      "cover_url": "assets/demo/sport.jpg",
+      "image_urls": [
+        "assets/demo/sport.jpg",
+        "assets/demo/campus.jpg"
+      ],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T19:54:20.543929Z",
+      "updated_at": "2026-10-23T19:54:20.543929Z",
+      "published_at": "2026-10-23T19:54:20.543929Z",
+      "event_start": "2026-10-25T12:00:00.000000Z",
+      "event_end": "2026-10-25T14:00:00.000000Z",
+      "location": "Спортивный зал · место уточним участникам",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 4,
+      "author_id": 5,
+      "type": "event",
+      "title": "Научный кофе: как начать своё исследование",
+      "body": "Неформальная встреча для тех, кто хочет попробовать себя в исследовании, но пока не знает, с чего начать. Обсудим, как выбрать небольшой вопрос, найти литературу и не потеряться в первых результатах.\n\nПринесите свою идею или просто приходите послушать. После вводной части останется время на вопросы и знакомство с другими участниками.",
+      "category": "science",
+      "cover_url": "assets/demo/science.jpg",
+      "image_urls": [
+        "assets/demo/science.jpg",
+        "assets/demo/coding.jpg"
+      ],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T16:54:20.543929Z",
+      "updated_at": "2026-10-23T16:54:20.543929Z",
+      "published_at": "2026-10-23T16:54:20.543929Z",
+      "event_start": "2026-10-25T10:00:00.000000Z",
+      "event_end": "2026-10-25T12:00:00.000000Z",
+      "location": "Студенческий коворкинг",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 5,
+      "author_id": 3,
+      "type": "event",
+      "title": "Киноклуб: смотрим и обсуждаем вместе",
+      "body": "Воскресный вечер для хорошего кино и разговора после титров. Вместо длинной лекции — короткое вступление и свободное обсуждение.\n\nФильм выберем вместе в комментариях к публикации. Предлагайте варианты продолжительностью до двух часов. Можно прийти только на просмотр или остаться на беседу — участие в обсуждении добровольное.",
+      "category": "culture",
+      "cover_url": "assets/demo/culture.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T13:54:20.543929Z",
+      "updated_at": "2026-10-23T13:54:20.543929Z",
+      "published_at": "2026-10-23T13:54:20.543929Z",
+      "event_start": "2026-10-26T13:00:00.000000Z",
+      "event_end": "2026-10-26T15:00:00.000000Z",
+      "location": "Медиазал · студенческое пространство",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 6,
+      "author_id": 7,
+      "type": "news",
+      "title": "Как собрать портфолио, если опыта работы ещё нет",
+      "body": "В портфолио могут войти учебный проект, небольшое исследование, дизайн для студенческого сообщества или приложение с хакатона. Главное — объяснить задачу, вашу роль и получившийся результат.\n\nДля начала выберите две работы и опишите каждую на одной странице: что было нужно сделать, какие решения вы приняли, что проверили и чему научились. Если работали в команде, отдельно обозначьте свой вклад. Ссылки на работающий результат и понятные скриншоты помогут читателю быстрее разобраться.",
+      "category": "career",
+      "cover_url": "assets/demo/coding.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T10:54:20.543929Z",
+      "updated_at": "2026-10-23T10:54:20.543929Z",
+      "published_at": "2026-10-23T10:54:20.543929Z",
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 7,
+      "author_id": 5,
+      "type": "event",
+      "title": "Обмен вещами: дайте книгам вторую жизнь",
+      "body": "Книги, блокноты и небольшие полезные вещи можно обменять на встрече сообщества. Приносите только то, чем сами были бы рады пользоваться: чистое и в хорошем состоянии.\n\nПокупать или продавать ничего не нужно. Не обязательно приносить вещь, чтобы забрать понравившуюся книгу. Передавайте вещи лично и заранее договаривайтесь в комментариях, если хотите встретиться с конкретным участником.",
+      "category": "community",
+      "cover_url": "assets/demo/community.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T07:54:20.543929Z",
+      "updated_at": "2026-10-23T07:54:20.543929Z",
+      "published_at": "2026-10-23T07:54:20.543929Z",
+      "event_start": "2026-10-27T07:00:00.000000Z",
+      "event_end": "2026-10-27T09:00:00.000000Z",
+      "location": "Холл студенческого пространства",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 8,
+      "author_id": 4,
+      "type": "news",
+      "title": "Собираем команду на студенческий хакатон",
+      "body": "Ищем разработчика интерфейса, дизайнера и человека, которому интересно работать с данными. Хотим сделать небольшой, но законченный продукт и проверить его на реальных пользователях.\n\nЗнание конкретного стека не обязательно. Важнее готовность договариваться, показывать промежуточный результат и доводить задачи до конца. Напишите в комментариях, что вам интересно и какие проекты уже пробовали делать.",
+      "category": "science",
+      "cover_url": "assets/demo/coding.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T04:54:20.543929Z",
+      "updated_at": "2026-10-23T04:54:20.543929Z",
+      "published_at": "2026-10-23T04:54:20.543929Z",
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 9,
+      "author_id": 6,
+      "type": "event",
+      "title": "Лёгкая пробежка перед занятиями",
+      "body": "Бежим в разговорном темпе около трёх километров. Сначала короткая разминка, в конце — спокойная заминка. Никто не останется один: начнём и закончим вместе.\n\nМаршрут подходит для первой групповой пробежки. Оденьтесь по погоде и возьмите воду. При сильном дожде перенесём встречу и обновим эту публикацию после проверки модератором.",
+      "category": "sport",
+      "cover_url": "assets/demo/sport.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-23T01:54:20.543929Z",
+      "updated_at": "2026-10-23T01:54:20.543929Z",
+      "published_at": "2026-10-23T01:54:20.543929Z",
+      "event_start": "2026-10-28T03:00:00.000000Z",
+      "event_end": "2026-10-28T05:00:00.000000Z",
+      "location": "Набережная · встреча у пешеходного входа",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 10,
+      "author_id": 8,
+      "type": "news",
+      "title": "Что помогает освоиться на первом курсе",
+      "body": "За первые недели собрал несколько привычек, которые действительно экономят время. Сохраняю расписание на неделю, записываю дедлайны в одно место и заранее проверяю аудиторию перед парой.\n\nЕщё помогает задавать вопросы старшекурсникам и не пытаться сразу вступить во все сообщества. Выберите одно занятие, которое интересно именно вам, и сходите на встречу. В комментариях можно дополнить список своими советами.",
+      "category": "campus",
+      "cover_url": "assets/demo/campus.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-22T22:54:20.543929Z",
+      "updated_at": "2026-10-22T22:54:20.543929Z",
+      "published_at": "2026-10-22T22:54:20.543929Z",
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 11,
+      "author_id": 7,
+      "type": "event",
+      "title": "Разбор резюме: первая стажировка",
+      "body": "Практическая встреча: посмотрим, как описывать учебные проекты, какой объём резюме удобен для чтения и почему конкретные примеры сильнее общих формулировок.\n\nМожно принести собственный черновик или работать с учебным примером. Персональные данные показывать не обязательно. После встречи останется шаблон структуры, который можно заполнить самостоятельно.",
+      "category": "career",
+      "cover_url": "assets/demo/coding.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-22T19:54:20.543929Z",
+      "updated_at": "2026-10-22T19:54:20.543929Z",
+      "published_at": "2026-10-22T19:54:20.543929Z",
+      "event_start": "2026-10-29T11:00:00.000000Z",
+      "event_end": "2026-10-29T13:00:00.000000Z",
+      "location": "Коворкинг · переговорная",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 12,
+      "author_id": 3,
+      "type": "event",
+      "title": "Фотопрогулка по осенней Уфе",
+      "body": "Пройдём короткий маршрут по центру города и попробуем снять знакомые места с нового ракурса. Подойдёт любой телефон или фотоаппарат.\n\nПо дороге поговорим о свете и композиции, а в конце выберем по одному кадру для общей подборки. Возьмите удобную обувь. Если будет холодно, зайдём погреться и посмотрим фотографии вместе.",
+      "category": "culture",
+      "cover_url": "assets/demo/culture.jpg",
+      "image_urls": [
+        "assets/demo/culture.jpg",
+        "assets/demo/campus.jpg",
+        "assets/demo/community.jpg"
+      ],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-22T16:54:20.543929Z",
+      "updated_at": "2026-10-22T16:54:20.543929Z",
+      "published_at": "2026-10-22T16:54:20.543929Z",
+      "event_start": "2026-10-30T09:00:00.000000Z",
+      "event_end": "2026-10-30T11:00:00.000000Z",
+      "location": "Встреча у главного входа в кампус",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 13,
+      "author_id": 5,
+      "type": "news",
+      "title": "Мини-исследование: сколько одноразовых стаканов мы используем",
+      "body": "Начинаем небольшой студенческий проект о повседневных привычках. Хотим за неделю собрать анонимные наблюдения и понять, в каких ситуациях многоразовая кружка оказывается удобнее одноразового стакана.\n\nСейчас выбираем простой способ учёта и вопросы для короткой анкеты. Если у вас есть опыт опросов или визуализации данных, будем рады советам. Итоги и ограничения исследования опубликуем отдельным материалом.",
+      "category": "science",
+      "cover_url": "assets/demo/science.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-22T13:54:20.543929Z",
+      "updated_at": "2026-10-22T13:54:20.543929Z",
+      "published_at": "2026-10-22T13:54:20.543929Z",
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 14,
+      "author_id": 7,
+      "type": "event",
+      "title": "Настольные игры после пар",
+      "body": "Встречаемся после занятий: принесём несколько быстрых настольных игр, объясним правила и соберём небольшие компании. Можно присоединиться одному — организаторы помогут выбрать стол.\n\nЕсли хотите принести свою игру, напишите её название в комментариях. Запланировали два часа, но можно прийти позже или уйти раньше.",
+      "category": "community",
+      "cover_url": "assets/demo/community.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-22T10:54:20.543929Z",
+      "updated_at": "2026-10-22T10:54:20.543929Z",
+      "published_at": "2026-10-22T10:54:20.543929Z",
+      "event_start": "2026-10-24T12:00:00.000000Z",
+      "event_end": "2026-10-24T14:00:00.000000Z",
+      "location": "Студенческое пространство · большой стол",
+      "price": "Бесплатно",
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 15,
+      "author_id": 6,
+      "type": "news",
+      "title": "Ищем напарников для регулярных тренировок",
+      "body": "Когда заранее договорился с кем-то о тренировке, пропустить её сложнее. Собираем небольшую группу для занятий два раза в неделю: общая разминка, упражнения с собственным весом и растяжка.\n\nПока выбираем время и удобную площадку. Напишите в комментариях, в какие дни вы свободны и какой формат вам подходит. Участники сами определяют комфортную нагрузку.",
+      "category": "sport",
+      "cover_url": "assets/demo/sport.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-22T07:54:20.543929Z",
+      "updated_at": "2026-10-22T07:54:20.543929Z",
+      "published_at": "2026-10-22T07:54:20.543929Z",
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 16,
+      "author_id": 8,
+      "type": "news",
+      "title": "Свободный стол для совместной учёбы",
+      "body": "Ищем компанию для спокойной совместной подготовки: каждый работает над своим предметом, а в перерывах можно обсудить сложные вопросы. Попробуем формат 45 минут работы и 10 минут отдыха.\n\nДля первой встречи достаточно трёх-четырёх человек. Укажите в комментариях предмет и удобное время. Если идея приживётся, будем собираться раз в неделю.",
+      "category": "community",
+      "cover_url": "assets/demo/community.jpg",
+      "image_urls": [],
+      "status": "published",
+      "moderation_reason": null,
+      "created_at": "2026-10-22T04:54:20.543929Z",
+      "updated_at": "2026-10-22T04:54:20.543929Z",
+      "published_at": "2026-10-22T04:54:20.543929Z",
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 17,
+      "author_id": 1,
+      "type": "news",
+      "title": "Собираю команду для учебного приложения",
+      "body": "Хочу сделать небольшое приложение для студентов и ищу тех, кому интересно попробовать дизайн, мобильную разработку или работу с сервером. Сначала обсудим одну понятную задачу и сделаем работающий прототип.",
+      "category": "science",
+      "cover_url": null,
+      "image_urls": [],
+      "status": "draft",
+      "moderation_reason": null,
+      "created_at": "2026-10-24T02:19:20.543929Z",
+      "updated_at": "2026-10-24T02:19:20.543929Z",
+      "published_at": null,
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    },
+    {
+      "id": 18,
+      "author_id": 1,
+      "type": "news",
+      "title": "Обмен учебниками по программированию",
+      "body": "Есть несколько учебников по основам Python и алгоритмам. Готов обменять на книги по мобильной разработке или передать первокурсникам. В комментариях можно написать, какие темы вам интересны.",
+      "category": "community",
+      "cover_url": null,
+      "image_urls": [],
+      "status": "pending",
+      "moderation_reason": null,
+      "created_at": "2026-10-24T02:19:20.543929Z",
+      "updated_at": "2026-10-24T02:19:20.543929Z",
+      "published_at": null,
+      "event_start": null,
+      "event_end": null,
+      "location": null,
+      "price": null,
+      "registration_url": null,
+      "is_demo": 1
+    }
+  ],
+  "follows": [
+    {
+      "follower_id": 1,
+      "following_id": 3
+    },
+    {
+      "follower_id": 1,
+      "following_id": 4
+    },
+    {
+      "follower_id": 1,
+      "following_id": 6
+    },
+    {
+      "follower_id": 3,
+      "following_id": 4
+    },
+    {
+      "follower_id": 4,
+      "following_id": 3
+    },
+    {
+      "follower_id": 5,
+      "following_id": 1
+    },
+    {
+      "follower_id": 6,
+      "following_id": 1
+    },
+    {
+      "follower_id": 7,
+      "following_id": 3
+    },
+    {
+      "follower_id": 8,
+      "following_id": 4
+    },
+    {
+      "follower_id": 4,
+      "following_id": 1
+    },
+    {
+      "follower_id": 3,
+      "following_id": 1
+    },
+    {
+      "follower_id": 6,
+      "following_id": 4
+    }
+  ],
+  "friendships": [
+    {
+      "user_low": 1,
+      "user_high": 4,
+      "requester_id": 1,
+      "created_at": "2026-10-10T02:54:20.543929Z",
+      "accepted_at": "2026-10-17T02:54:20.543929Z"
+    },
+    {
+      "user_low": 1,
+      "user_high": 6,
+      "requester_id": 1,
+      "created_at": "2026-10-10T02:54:20.543929Z",
+      "accepted_at": "2026-10-17T02:54:20.543929Z"
+    },
+    {
+      "user_low": 1,
+      "user_high": 5,
+      "requester_id": 5,
+      "created_at": "2026-10-24T01:54:20.543929Z",
+      "accepted_at": null
+    }
+  ],
+  "bookmarks": [
+    {
+      "user_id": 1,
+      "post_id": 1
+    },
+    {
+      "user_id": 1,
+      "post_id": 4
+    }
+  ],
+  "reactions": [
+    {
+      "user_id": 4,
+      "post_id": 1,
+      "reaction": "like"
+    },
+    {
+      "user_id": 5,
+      "post_id": 1,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 7,
+      "post_id": 1,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 8,
+      "post_id": 1,
+      "reaction": "like"
+    },
+    {
+      "user_id": 3,
+      "post_id": 2,
+      "reaction": "like"
+    },
+    {
+      "user_id": 4,
+      "post_id": 2,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 6,
+      "post_id": 2,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 7,
+      "post_id": 2,
+      "reaction": "like"
+    },
+    {
+      "user_id": 3,
+      "post_id": 3,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 5,
+      "post_id": 3,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 6,
+      "post_id": 3,
+      "reaction": "like"
+    },
+    {
+      "user_id": 8,
+      "post_id": 3,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 4,
+      "post_id": 4,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 5,
+      "post_id": 4,
+      "reaction": "like"
+    },
+    {
+      "user_id": 7,
+      "post_id": 4,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 8,
+      "post_id": 4,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 3,
+      "post_id": 5,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 4,
+      "post_id": 5,
+      "reaction": "like"
+    },
+    {
+      "user_id": 6,
+      "post_id": 5,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 7,
+      "post_id": 5,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 3,
+      "post_id": 6,
+      "reaction": "like"
+    },
+    {
+      "user_id": 5,
+      "post_id": 6,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 6,
+      "post_id": 6,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 8,
+      "post_id": 6,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 4,
+      "post_id": 7,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 5,
+      "post_id": 7,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 7,
+      "post_id": 7,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 8,
+      "post_id": 7,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 3,
+      "post_id": 8,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 4,
+      "post_id": 8,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 6,
+      "post_id": 8,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 7,
+      "post_id": 8,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 3,
+      "post_id": 9,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 5,
+      "post_id": 9,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 6,
+      "post_id": 9,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 8,
+      "post_id": 9,
+      "reaction": "like"
+    },
+    {
+      "user_id": 4,
+      "post_id": 10,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 5,
+      "post_id": 10,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 7,
+      "post_id": 10,
+      "reaction": "like"
+    },
+    {
+      "user_id": 8,
+      "post_id": 10,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 3,
+      "post_id": 11,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 4,
+      "post_id": 11,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 6,
+      "post_id": 11,
+      "reaction": "like"
+    },
+    {
+      "user_id": 7,
+      "post_id": 11,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 3,
+      "post_id": 12,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 5,
+      "post_id": 12,
+      "reaction": "like"
+    },
+    {
+      "user_id": 6,
+      "post_id": 12,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 8,
+      "post_id": 12,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 4,
+      "post_id": 13,
+      "reaction": "like"
+    },
+    {
+      "user_id": 5,
+      "post_id": 13,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 7,
+      "post_id": 13,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 8,
+      "post_id": 13,
+      "reaction": "like"
+    },
+    {
+      "user_id": 3,
+      "post_id": 14,
+      "reaction": "like"
+    },
+    {
+      "user_id": 4,
+      "post_id": 14,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 6,
+      "post_id": 14,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 7,
+      "post_id": 14,
+      "reaction": "like"
+    },
+    {
+      "user_id": 3,
+      "post_id": 15,
+      "reaction": "fire"
+    },
+    {
+      "user_id": 5,
+      "post_id": 15,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 6,
+      "post_id": 15,
+      "reaction": "like"
+    },
+    {
+      "user_id": 8,
+      "post_id": 15,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 4,
+      "post_id": 16,
+      "reaction": "clap"
+    },
+    {
+      "user_id": 5,
+      "post_id": 16,
+      "reaction": "like"
+    },
+    {
+      "user_id": 7,
+      "post_id": 16,
+      "reaction": "heart"
+    },
+    {
+      "user_id": 8,
+      "post_id": 16,
+      "reaction": "clap"
+    }
+  ],
+  "attendance": [
+    {
+      "user_id": 4,
+      "post_id": 1
+    },
+    {
+      "user_id": 6,
+      "post_id": 1
+    },
+    {
+      "user_id": 8,
+      "post_id": 1
+    },
+    {
+      "user_id": 4,
+      "post_id": 3
+    },
+    {
+      "user_id": 6,
+      "post_id": 3
+    },
+    {
+      "user_id": 8,
+      "post_id": 3
+    },
+    {
+      "user_id": 3,
+      "post_id": 4
+    },
+    {
+      "user_id": 5,
+      "post_id": 4
+    },
+    {
+      "user_id": 7,
+      "post_id": 4
+    },
+    {
+      "user_id": 4,
+      "post_id": 5
+    },
+    {
+      "user_id": 6,
+      "post_id": 5
+    },
+    {
+      "user_id": 8,
+      "post_id": 5
+    },
+    {
+      "user_id": 4,
+      "post_id": 7
+    },
+    {
+      "user_id": 6,
+      "post_id": 7
+    },
+    {
+      "user_id": 8,
+      "post_id": 7
+    },
+    {
+      "user_id": 4,
+      "post_id": 9
+    },
+    {
+      "user_id": 6,
+      "post_id": 9
+    },
+    {
+      "user_id": 8,
+      "post_id": 9
+    },
+    {
+      "user_id": 4,
+      "post_id": 11
+    },
+    {
+      "user_id": 6,
+      "post_id": 11
+    },
+    {
+      "user_id": 8,
+      "post_id": 11
+    },
+    {
+      "user_id": 3,
+      "post_id": 12
+    },
+    {
+      "user_id": 5,
+      "post_id": 12
+    },
+    {
+      "user_id": 7,
+      "post_id": 12
+    },
+    {
+      "user_id": 3,
+      "post_id": 14
+    },
+    {
+      "user_id": 5,
+      "post_id": 14
+    },
+    {
+      "user_id": 7,
+      "post_id": 14
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "post_id": 1,
+      "author_id": 8,
+      "body": "Если с Flutter ещё не работал, можно присоединиться?",
+      "created_at": "2026-10-24T01:24:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 2,
+      "post_id": 1,
+      "author_id": 4,
+      "body": "Конечно. Начнём с основ, а дальше разделимся по уровню. Ноутбук захвати.",
+      "created_at": "2026-10-24T01:27:20.543929Z",
+      "parent_id": 1
+    },
+    {
+      "id": 3,
+      "post_id": 1,
+      "author_id": 1,
+      "body": "Я приду. Могу помочь с Python и подключением API.",
+      "created_at": "2026-10-24T01:30:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 4,
+      "post_id": 1,
+      "author_id": 7,
+      "body": "Есть ли место, где можно будет зарядить ноутбук?",
+      "created_at": "2026-10-24T01:33:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 5,
+      "post_id": 1,
+      "author_id": 4,
+      "body": "Да, розетки рядом со столами есть. На всякий случай возьму удлинитель.",
+      "created_at": "2026-10-24T01:36:20.543929Z",
+      "parent_id": 4
+    },
+    {
+      "id": 6,
+      "post_id": 3,
+      "author_id": 1,
+      "body": "Давно хотел вернуться к баскетболу. Уровень любительский, записался.",
+      "created_at": "2026-10-24T01:39:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 7,
+      "post_id": 3,
+      "author_id": 6,
+      "body": "Отлично, будем рады. Начнём с простых упражнений.",
+      "created_at": "2026-10-24T01:42:20.543929Z",
+      "parent_id": 6
+    },
+    {
+      "id": 8,
+      "post_id": 5,
+      "author_id": 8,
+      "body": "Предлагаю «Невероятную жизнь Уолтера Митти».",
+      "created_at": "2026-10-24T01:45:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 9,
+      "post_id": 5,
+      "author_id": 3,
+      "body": "Хороший вариант, добавила в список. Ещё предложения?",
+      "created_at": "2026-10-24T01:48:20.543929Z",
+      "parent_id": 8
+    },
+    {
+      "id": 10,
+      "post_id": 14,
+      "author_id": 3,
+      "body": "Принесу Dixit, если найдётся ещё четыре человека.",
+      "created_at": "2026-10-24T01:51:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 11,
+      "post_id": 14,
+      "author_id": 5,
+      "body": "Я за! Как раз хотела попробовать.",
+      "created_at": "2026-10-24T01:54:20.543929Z",
+      "parent_id": 10
+    },
+    {
+      "id": 12,
+      "post_id": 8,
+      "author_id": 1,
+      "body": "Могу заняться серверной частью. Как лучше обсудить идею?",
+      "created_at": "2026-10-24T01:57:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 13,
+      "post_id": 8,
+      "author_id": 4,
+      "body": "Давай встретимся на вечере кода, заодно посмотрим, кто ещё хочет присоединиться.",
+      "created_at": "2026-10-24T02:00:20.543929Z",
+      "parent_id": 12
+    },
+    {
+      "id": 14,
+      "post_id": 2,
+      "author_id": 5,
+      "body": "Первый кадр очень тёплый. Осенью кампус особенно красивый.",
+      "created_at": "2026-10-24T02:03:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 15,
+      "post_id": 10,
+      "author_id": 1,
+      "body": "Ещё советую заранее находить аудитории, если занятия в незнакомом корпусе.",
+      "created_at": "2026-10-24T02:06:20.543929Z",
+      "parent_id": null
+    },
+    {
+      "id": 16,
+      "post_id": 2,
+      "author_id": 3,
+      "body": "Спасибо! Если есть свои фотографии, присылай отдельную публикацию — соберём следующую подборку.",
+      "created_at": "2026-10-24T02:21:20.813647Z",
+      "parent_id": 14
+    },
+    {
+      "id": 17,
+      "post_id": 10,
+      "author_id": 8,
+      "body": "Да, спасибо. В первые дни сам тратил на это много времени. Добавлю совет в список.",
+      "created_at": "2026-10-24T02:19:20.813675Z",
+      "parent_id": 15
+    },
+    {
+      "id": 18,
+      "post_id": 4,
+      "author_id": 8,
+      "body": "Можно прийти, если пока нет своей темы?",
+      "created_at": "2026-10-24T02:10:20.813689Z",
+      "parent_id": null
+    },
+    {
+      "id": 19,
+      "post_id": 4,
+      "author_id": 5,
+      "body": "Да. Разберём несколько примеров и поможем выбрать небольшой исследовательский вопрос.",
+      "created_at": "2026-10-24T02:17:20.813689Z",
+      "parent_id": 18
+    },
+    {
+      "id": 20,
+      "post_id": 6,
+      "author_id": 3,
+      "body": "Учебный командный проект тоже подойдёт?",
+      "created_at": "2026-10-24T02:08:20.813711Z",
+      "parent_id": null
+    },
+    {
+      "id": 21,
+      "post_id": 6,
+      "author_id": 7,
+      "body": "Да, только отдельно опиши свой вклад. Скриншоты и ссылка на результат тоже пригодятся.",
+      "created_at": "2026-10-24T02:15:20.813711Z",
+      "parent_id": 20
+    },
+    {
+      "id": 22,
+      "post_id": 7,
+      "author_id": 7,
+      "body": "Есть два учебника по математике. Можно принести оба?",
+      "created_at": "2026-10-24T02:06:20.813730Z",
+      "parent_id": null
+    },
+    {
+      "id": 23,
+      "post_id": 7,
+      "author_id": 5,
+      "body": "Конечно. Если внутри есть пометки, просто предупреди следующего владельца.",
+      "created_at": "2026-10-24T02:13:20.813730Z",
+      "parent_id": 22
+    },
+    {
+      "id": 24,
+      "post_id": 9,
+      "author_id": 8,
+      "body": "Какой примерно будет темп? Давно не бегала.",
+      "created_at": "2026-10-24T02:04:20.813744Z",
+      "parent_id": null
+    },
+    {
+      "id": 25,
+      "post_id": 9,
+      "author_id": 6,
+      "body": "Ориентируемся на спокойный разговорный темп. При необходимости часть маршрута пройдём пешком.",
+      "created_at": "2026-10-24T02:11:20.813744Z",
+      "parent_id": 24
+    },
+    {
+      "id": 26,
+      "post_id": 11,
+      "author_id": 3,
+      "body": "Резюме обязательно приносить распечатанным?",
+      "created_at": "2026-10-24T02:02:20.813758Z",
+      "parent_id": null
+    },
+    {
+      "id": 27,
+      "post_id": 11,
+      "author_id": 7,
+      "body": "Нет, можно открыть на ноутбуке или телефоне. Главное — чтобы тебе было удобно вносить правки.",
+      "created_at": "2026-10-24T02:09:20.813758Z",
+      "parent_id": 26
+    },
+    {
+      "id": 28,
+      "post_id": 12,
+      "author_id": 7,
+      "body": "С телефоном можно присоединиться?",
+      "created_at": "2026-10-24T02:00:20.813773Z",
+      "parent_id": null
+    },
+    {
+      "id": 29,
+      "post_id": 12,
+      "author_id": 3,
+      "body": "Да, подойдёт любая камера. Больше внимания уделим свету и композиции.",
+      "created_at": "2026-10-24T02:07:20.813773Z",
+      "parent_id": 28
+    },
+    {
+      "id": 30,
+      "post_id": 13,
+      "author_id": 8,
+      "body": "Могу помочь с диаграммами и обработкой результатов.",
+      "created_at": "2026-10-24T01:58:20.813787Z",
+      "parent_id": null
+    },
+    {
+      "id": 31,
+      "post_id": 13,
+      "author_id": 5,
+      "body": "Отлично. Сначала согласуем вопросы анкеты, чтобы данные потом можно было сравнить.",
+      "created_at": "2026-10-24T02:05:20.813787Z",
+      "parent_id": 30
+    },
+    {
+      "id": 32,
+      "post_id": 15,
+      "author_id": 3,
+      "body": "Мне удобнее по вторникам и четвергам после 17:00.",
+      "created_at": "2026-10-24T01:56:20.813800Z",
+      "parent_id": null
+    },
+    {
+      "id": 33,
+      "post_id": 15,
+      "author_id": 6,
+      "body": "Записал. Соберём варианты времени и выберем те, которые подойдут большинству.",
+      "created_at": "2026-10-24T02:03:20.813800Z",
+      "parent_id": 32
+    },
+    {
+      "id": 34,
+      "post_id": 16,
+      "author_id": 7,
+      "body": "Готовлюсь по алгоритмам, могу присоединиться вечером.",
+      "created_at": "2026-10-24T01:54:20.813813Z",
+      "parent_id": null
+    },
+    {
+      "id": 35,
+      "post_id": 16,
+      "author_id": 8,
+      "body": "Подойдёт. Принеси свои задачи — в перерыве сможем разобрать сложные места вместе.",
+      "created_at": "2026-10-24T02:01:20.813813Z",
+      "parent_id": 34
+    }
+  ],
+  "moderation_history": [
+    {
+      "id": 1,
+      "post_id": 1,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-24T01:54:20.543929Z"
+    },
+    {
+      "id": 2,
+      "post_id": 2,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T22:54:20.543929Z"
+    },
+    {
+      "id": 3,
+      "post_id": 3,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T19:54:20.543929Z"
+    },
+    {
+      "id": 4,
+      "post_id": 4,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T16:54:20.543929Z"
+    },
+    {
+      "id": 5,
+      "post_id": 5,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T13:54:20.543929Z"
+    },
+    {
+      "id": 6,
+      "post_id": 6,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T10:54:20.543929Z"
+    },
+    {
+      "id": 7,
+      "post_id": 7,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T07:54:20.543929Z"
+    },
+    {
+      "id": 8,
+      "post_id": 8,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T04:54:20.543929Z"
+    },
+    {
+      "id": 9,
+      "post_id": 9,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-23T01:54:20.543929Z"
+    },
+    {
+      "id": 10,
+      "post_id": 10,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-22T22:54:20.543929Z"
+    },
+    {
+      "id": 11,
+      "post_id": 11,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-22T19:54:20.543929Z"
+    },
+    {
+      "id": 12,
+      "post_id": 12,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-22T16:54:20.543929Z"
+    },
+    {
+      "id": 13,
+      "post_id": 13,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-22T13:54:20.543929Z"
+    },
+    {
+      "id": 14,
+      "post_id": 14,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-22T10:54:20.543929Z"
+    },
+    {
+      "id": 15,
+      "post_id": 15,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-22T07:54:20.543929Z"
+    },
+    {
+      "id": 16,
+      "post_id": 16,
+      "actor_id": 2,
+      "decision": "publish",
+      "reason": null,
+      "created_at": "2026-10-22T04:54:20.543929Z"
+    },
+    {
+      "id": 17,
+      "post_id": 18,
+      "actor_id": 1,
+      "decision": "submitted",
+      "reason": null,
+      "created_at": "2026-10-24T02:19:20.543929Z"
+    }
+  ],
+  "comment_reports": [],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Публикация на проверке",
+      "body": "«Обмен учебниками по программированию» отправлена модератору. Результат появится здесь.",
+      "post_id": 18,
+      "created_at": "2026-10-24T02:19:20.543929Z",
+      "is_read": 0
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "user_low": 1,
+      "user_high": 4,
+      "created_at": "2026-10-24T02:42:20.813876Z"
+    },
+    {
+      "id": 2,
+      "user_low": 1,
+      "user_high": 6,
+      "created_at": "2026-10-24T02:42:20.813876Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversation_id": 1,
+      "sender_id": 4,
+      "body": "Привет! На вечер кода можно прийти без опыта разработки. Если соберёшься, отметь участие в событии.",
+      "image_url": null,
+      "created_at": "2026-10-24T02:42:20.813876Z",
+      "read_at": null
+    },
+    {
+      "id": 2,
+      "conversation_id": 2,
+      "sender_id": 6,
+      "body": "Привет! На открытую тренировку можно прийти без команды. Напиши, если понадобятся подробности.",
+      "image_url": null,
+      "created_at": "2026-10-24T02:42:20.813876Z",
+      "read_at": null
+    },
+    {
+      "id": 3,
+      "conversation_id": 1,
+      "sender_id": 4,
+      "body": "Фотография с прошлой встречи.",
+      "image_url": "assets/demo/coding.jpg",
+      "created_at": "2026-10-24T02:49:20.819530Z",
+      "read_at": null
+    }
+  ],
+  "generated_at": "2026-10-24T02:54:20.819530Z"
+}
